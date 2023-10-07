@@ -1,0 +1,23 @@
+.Section {
+  padding: 15px;
+  background-color: #9db2c8;
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border-radius: 9px;
+  background-color: #cbccce;
+  margin: 10px;
+  border-color: #01395e;
+  font-size: 17px;
+}
