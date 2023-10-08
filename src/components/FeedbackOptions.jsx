@@ -1,6 +1,6 @@
 const FeedbackOptions = ({ options, onLeaveFeedback }) => (
-  <div className="">
-    {options.map((option) => (
+  <div className="sections">
+    {options.map(option => (
       <button
         className="btn"
         key={option}

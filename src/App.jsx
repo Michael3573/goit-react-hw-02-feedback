@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import Statistics from "./components/Statistics";
-import FeedbackOptions from "./components/FeedbackOptions";
-import Section from "./components/Section";
-import Notification from "./components/Notification";
-import "./App.css";
+import React, { Component } from 'react';
+import Statistics from './components/Statistics';
+import FeedbackOptions from './components/FeedbackOptions';
+import Section from './components/Section';
+import Notification from './components/Notification';
+import './App.css';
 
 class App extends Component {
   state = {
@@ -12,8 +12,8 @@ class App extends Component {
     bad: 0,
   };
 
-  handleFeedback = (type) => {
-    this.setState((prevState) => ({
+  handleFeedback = type => {
+    this.setState(prevState => ({
       [type]: prevState[type] + 1,
     }));
   };
@@ -41,7 +41,7 @@ class App extends Component {
       <div className="Section">
         <Section title="Leave your feedback">
           <FeedbackOptions
-            options={["good", "neutral", "bad"]}
+            options={['good', 'neutral', 'bad']}
             onLeaveFeedback={this.handleFeedback}
           />
         </Section>

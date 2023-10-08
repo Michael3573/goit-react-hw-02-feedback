@@ -1,3 +1,13 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 .Section {
   padding: 15px;
   background-color: #9db2c8;
@@ -6,8 +16,14 @@
   border-radius: 5px;
 }
 
+.sections {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 .hero-text {
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .btn {
@@ -17,8 +33,16 @@
   padding-right: 17px;
   border-radius: 9px;
   background-color: #cbccce;
-  margin: 10px;
-  border-color: #01395e;
+  border: none;
   font-size: 17px;
-  /* font: ; */
+  margin-right: 15px;
+  justify-content: space-between;
+}
+
+.btn:last-child {
+  margin-right: 0;
+}
+
+.btn:active {
+  background-color: #797575;
 }
