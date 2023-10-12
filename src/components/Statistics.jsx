@@ -1,5 +1,5 @@
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
-  <div className="statistic-text">
+  <div>
     <p>Good: {good}</p>
     <p>Neutral: {neutral}</p>
     <p>Bad: {bad}</p>
