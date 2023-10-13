@@ -47,7 +47,6 @@ class App extends Component {
         </Section>
 
         <Section title="Statistics">
-          {/* Render Notification if no feedback */}
           {totalFeedback > 0 ? (
             <Statistics
               good={good}
